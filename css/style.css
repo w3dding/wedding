@@ -31,7 +31,7 @@ Purchase:
 
 /*--------- Body Strat -------*/
 body, html{
-	font-family: 'Georgia', serif;
+	font-family: 'Lora', serif;
 	font-size: 16px;
 	line-height: 23px;
 	color: #797979;
@@ -50,10 +50,10 @@ a:focus {
 	outline: none;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: 'Arial', cursive;
+	font-family: 'Dancing Script', cursive;
 	line-height: 1.1;
 	font-weight:400;
-	color: #222222;
+	color: #f07677	;
 }
 input, select, button {
 	outline: none;
@@ -603,8 +603,8 @@ textarea:focus {
 .wd_about_infobox_date h2{
     float: left;
     width: 100%;
-    font-size: 40px;
-    color: #222222;
+    font-size: 30px;
+    color: #f07677;
     text-transform: uppercase;
     font-family: 'Lora', serif;
     margin-top: 0px;
