@@ -1482,7 +1482,7 @@ textarea:focus {
     transition: all 0.5s;
 }
 .wd_gallery_slider .owl-theme .owl-dots .owl-dot span {
-    width: 50px;
+    width: 30px;
     height: 30px;
     margin: 5px 5px;
     background: #383838;
@@ -1492,10 +1492,16 @@ textarea:focus {
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
 }
 .wd_gallery_slider .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    border: 1px solid #f07677;   
-	background: #383838;
+    border: 1px solid #f07677; 
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;     
+	background: #f07677;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
