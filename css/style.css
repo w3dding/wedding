@@ -31,7 +31,8 @@ Purchase:
 
 /*--------- Body Strat -------*/
 body, html{
-	font-family: 'Lora', serif;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-family: 'Noticia Text', serif;
 	font-size: 16px;
 	line-height: 23px;
 	color: #797979;
