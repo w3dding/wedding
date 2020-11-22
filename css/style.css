@@ -1044,7 +1044,7 @@ textarea:focus {
 	width:100%;
 	font-size:46px;
 	color:#ffffff;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Dancing Script', cursive;
 	margin:30px 0px 20px 0px;
     line-height: 46px;
 }
@@ -2167,26 +2167,3 @@ textarea:focus {
 	.wd_story_covers_box_right{width:410px;}
 }
 /*-- Responsive css End --*/
-.album{
-    display: inline-block;
-	width:auto;
-	min-width:150px;
-	height:50px;
-	line-height:49px;
-	font-size:18px;
-	color:#f07677;
-	text-transform:uppercase;
-    font-weight: normal;
-	background-color: #fff;
-	text-align:center;
-	-webkit-border-radius:50px;
-	-moz-border-radius:50px;
-	border-radius:50px;
-	border:none;
-    padding: 0px 30px;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	transition: all 0.5s;
-}
