@@ -234,7 +234,7 @@ textarea:focus {
 }
 #snow{
 	background: none;
-	background-image: url('../images/header/sn1.png'), url('../images/header/sn2.png'), url('../images/header/sn3.png');
+	background-image: url('../images/header/sn1.webp'), url('../images/header/sn2.webp'), url('../images/header/sn3.webp');
 	height: 100%;
 	left: 0;
 	position: absolute;
