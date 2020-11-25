@@ -31,8 +31,7 @@ Purchase:
 
 /*--------- Body Strat -------*/
 body, html{
-	font-family: 'Barlow Semi Condensed', sans-serif;
-	font-family: 'Noticia Text', serif;
+	font-family: 'Geneva', serif;
 	font-size: 16px;
 	line-height: 23px;
 	color: #797979;
@@ -218,7 +217,7 @@ textarea:focus {
 	font-size:40px;
 	color:#f07677;
 	text-transform:capitalize;
-    font-family: 'Lora', serif;
+    font-family: 'Cambria', serif;
 	margin:10px 0px 0px 0px;
 }
 .wd_slider_textinfo h1{
@@ -227,7 +226,7 @@ textarea:focus {
 	font-size:40px;
 	color:#111111;
 	text-transform:uppercase;
-    font-family: 'Lora', serif;
+    font-family: 'Cambria', serif;
     margin: 10px 0px 10px 0px;
 }
 .wow {
@@ -424,7 +423,7 @@ textarea:focus {
 	width:100%;
 	margin:10px 0px;
 	font-size:40px;
-	font-family: 'Lora', serif;
+	font-family: 'Cambria', serif;
 }
 .wd_heading h4{
 	float:left;
@@ -432,7 +431,7 @@ textarea:focus {
 	margin:0px;
 	font-size:18px;
 	color:#f07677;
-	font-family: 'Lora', serif;
+	font-family: 'Cambria', serif;
 }
 .wd_heading img{
 	display:inline-block;
@@ -607,7 +606,7 @@ textarea:focus {
     font-size: 30px;
     color: #f07677;
     text-transform: uppercase;
-    font-family: 'Lora', serif;
+    font-family: 'Cambria', serif;
     margin-top: 0px;
 }
 .wd_about_infobox_date h3{
@@ -616,7 +615,7 @@ textarea:focus {
     font-size: 30px;
     color: #f07677;
     text-transform: uppercase;
-    font-family: 'Lora', serif;
+    font-family: 'Cambria', serif;
     margin-top: 10px;
 }
 .wd_timer_wrapper{
@@ -647,7 +646,7 @@ textarea:focus {
 	width:auto;
 	text-transform:uppercase;
 	font-size:20px;
-        font-family: 'Lora', serif;
+    font-family: 'Cambria', serif;
 	padding:0px 15px;
 	background-color:#ffffff;
 }
@@ -663,7 +662,7 @@ textarea:focus {
 #timer > div{
     display: inline-block;
     margin: 30px 50px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Brush Script MT', cursive;
 }
 #timer div > span{
     float: left;
@@ -676,7 +675,7 @@ textarea:focus {
     padding-top: 20px;
     font-size: 28px;
     color:#111;
-    font-family: 'Lora', serif;
+    font-family: 'Cambria', serif;
     font-style:italic;
     color:#797979;
 }
@@ -943,7 +942,7 @@ textarea:focus {
     float: left;
     width: 100%;
     color: #ffffff;
-    font-family: 'Lora', serif;
+    font-family: 'Cambria', serif;
     margin: 0px 0px 15px 0px;
 }
 .wd_guest_infobox p{
@@ -1055,7 +1054,7 @@ textarea:focus {
 	width:100%;
 	font-size:18px;
 	color:#ffffff;
-    font-family: 'Lora', serif;
+    font-family: 'Cambria', serif;
 	margin:0px;
 }
 .wd_testimonial_slider .owl-theme .owl-nav.disabled + .owl-dots{
