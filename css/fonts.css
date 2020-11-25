@@ -1,6 +1,7 @@
 /* latin-ext */
 @font-face {
   font-family: 'Great Vibes';
+  font-display: swap;
   font-style: normal;
   font-weight: 400;
   src: local('Great Vibes'), local('GreatVibes-Regular'), url(https://fonts.gstatic.com/s/greatvibes/v4/6q1c0ofG6NKsEhAc2eh-3SYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
@@ -9,6 +10,7 @@
 /* latin */
 @font-face {
   font-family: 'Great Vibes';
+  font-display: swap;
   font-style: normal;
   font-weight: 400;
   src: local('Great Vibes'), local('GreatVibes-Regular'), url(https://fonts.gstatic.com/s/greatvibes/v4/6q1c0ofG6NKsEhAc2eh-3Y4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
@@ -17,6 +19,7 @@
 /* cyrillic-ext */
 @font-face {
   font-family: 'Lora';
+  font-display: swap;
   font-style: normal;
   font-weight: 400;
   src: local('Lora Regular'), local('Lora-Regular'), url(https://fonts.gstatic.com/s/lora/v10/Ukd0sOIY4JZgcODPuj2G3Q.woff2) format('woff2');
@@ -25,6 +28,7 @@
 /* cyrillic */
 @font-face {
   font-family: 'Lora';
+  font-display: swap;
   font-style: normal;
   font-weight: 400;
   src: local('Lora Regular'), local('Lora-Regular'), url(https://fonts.gstatic.com/s/lora/v10/GsNxiN0oIzsS201cnUag6w.woff2) format('woff2');
@@ -33,6 +37,7 @@
 /* vietnamese */
 @font-face {
   font-family: 'Lora';
+  font-display: swap;
   font-style: normal;
   font-weight: 400;
   src: local('Lora Regular'), local('Lora-Regular'), url(https://fonts.gstatic.com/s/lora/v10/ie2Ux11tIT0C_JTksRPlKA.woff2) format('woff2');
@@ -41,6 +46,7 @@
 /* latin-ext */
 @font-face {
   font-family: 'Lora';
+  font-display: swap;
   font-style: normal;
   font-weight: 400;
   src: local('Lora Regular'), local('Lora-Regular'), url(https://fonts.gstatic.com/s/lora/v10/I0dEfRgGNE90_hXZq7bjyw.woff2) format('woff2');
@@ -49,6 +55,7 @@
 /* latin */
 @font-face {
   font-family: 'Lora';
+  font-display: swap;
   font-style: normal;
   font-weight: 400;
   src: local('Lora Regular'), local('Lora-Regular'), url(https://fonts.gstatic.com/s/lora/v10/4vqKRIwnQQGUQQh-PnvdMA.woff2) format('woff2');
@@ -57,6 +64,7 @@
 /* cyrillic-ext */
 @font-face {
   font-family: 'Lora';
+  font-display: swap;
   font-style: normal;
   font-weight: 700;
   src: local('Lora Bold'), local('Lora-Bold'), url(https://fonts.gstatic.com/s/lora/v10/sNXgpEOJ2Tz7WJSozSN6D_Y6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
@@ -65,6 +73,7 @@
 /* cyrillic */
 @font-face {
   font-family: 'Lora';
+  font-display: swap;
   font-style: normal;
   font-weight: 700;
   src: local('Lora Bold'), local('Lora-Bold'), url(https://fonts.gstatic.com/s/lora/v10/VZ-5ejr2fpt5l1RKkVxPr_Y6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
@@ -73,6 +82,7 @@
 /* vietnamese */
 @font-face {
   font-family: 'Lora';
+  font-display: swap;
   font-style: normal;
   font-weight: 700;
   src: local('Lora Bold'), local('Lora-Bold'), url(https://fonts.gstatic.com/s/lora/v10/gBru_9ER68jWAtTarLXr3_Y6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
@@ -81,6 +91,7 @@
 /* latin-ext */
 @font-face {
   font-family: 'Lora';
+  font-display: swap;
   font-style: normal;
   font-weight: 700;
   src: local('Lora Bold'), local('Lora-Bold'), url(https://fonts.gstatic.com/s/lora/v10/BYKAuswRIqh69412sen31PY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
@@ -89,6 +100,7 @@
 /* latin */
 @font-face {
   font-family: 'Lora';
+  font-display: swap;
   font-style: normal;
   font-weight: 700;
   src: local('Lora Bold'), local('Lora-Bold'), url(https://fonts.gstatic.com/s/lora/v10/P18Nsu9EiYldSvHIj_0e5w.woff2) format('woff2');
@@ -97,6 +109,7 @@
 /* cyrillic-ext */
 @font-face {
   font-family: 'Lora';
+  font-display: swap;
   font-style: italic;
   font-weight: 400;
   src: local('Lora Italic'), local('Lora-Italic'), url(https://fonts.gstatic.com/s/lora/v10/HeAP0mHtiTx5JKQlc80wp_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
@@ -105,6 +118,7 @@
 /* cyrillic */
 @font-face {
   font-family: 'Lora';
+  font-display: swap;
   font-style: italic;
   font-weight: 400;
   src: local('Lora Italic'), local('Lora-Italic'), url(https://fonts.gstatic.com/s/lora/v10/OVZcBeQFqX1w7YhsLFAXp_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
@@ -113,6 +127,7 @@
 /* vietnamese */
 @font-face {
   font-family: 'Lora';
+  font-display: swap;
   font-style: italic;
   font-weight: 400;
   src: local('Lora Italic'), local('Lora-Italic'), url(https://fonts.gstatic.com/s/lora/v10/7zlcDWwHlSl_w5azaU2j3PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
@@ -121,6 +136,7 @@
 /* latin-ext */
 @font-face {
   font-family: 'Lora';
+  font-display: swap;
   font-style: italic;
   font-weight: 400;
   src: local('Lora Italic'), local('Lora-Italic'), url(https://fonts.gstatic.com/s/lora/v10/nRWuMjV9d7Qv7608EovOgfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
@@ -129,6 +145,7 @@
 /* latin */
 @font-face {
   font-family: 'Lora';
+  font-display: swap;
   font-style: italic;
   font-weight: 400;
   src: local('Lora Italic'), local('Lora-Italic'), url(https://fonts.gstatic.com/s/lora/v10/_RSiB1sBuflZfa9fxV8cOg.woff2) format('woff2');
@@ -137,6 +154,7 @@
 /* cyrillic-ext */
 @font-face {
   font-family: 'Lora';
+  font-display: swap;
   font-style: italic;
   font-weight: 700;
   src: local('Lora Bold Italic'), local('Lora-BoldItalic'), url(https://fonts.gstatic.com/s/lora/v10/47861CGpECw31aszKPt4uhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
@@ -145,6 +163,7 @@
 /* cyrillic */
 @font-face {
   font-family: 'Lora';
+  font-display: swap;
   font-style: italic;
   font-weight: 700;
   src: local('Lora Bold Italic'), local('Lora-BoldItalic'), url(https://fonts.gstatic.com/s/lora/v10/66KG1MDzU5Zo36weZ_yx-RJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
@@ -153,6 +172,7 @@
 /* vietnamese */
 @font-face {
   font-family: 'Lora';
+  font-display: swap;
   font-style: italic;
   font-weight: 700;
   src: local('Lora Bold Italic'), local('Lora-BoldItalic'), url(https://fonts.gstatic.com/s/lora/v10/GjWw5_K_Fhq8yNDkNV_ETRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
@@ -161,6 +181,7 @@
 /* latin-ext */
 @font-face {
   font-family: 'Lora';
+  font-display: swap;
   font-style: italic;
   font-weight: 700;
   src: local('Lora Bold Italic'), local('Lora-BoldItalic'), url(https://fonts.gstatic.com/s/lora/v10/1wR3aOJ69QwyZ9B-WDmIqRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
@@ -169,6 +190,7 @@
 /* latin */
 @font-face {
   font-family: 'Lora';
+  font-display: swap;
   font-style: italic;
   font-weight: 700;
   src: local('Lora Bold Italic'), local('Lora-BoldItalic'), url(https://fonts.gstatic.com/s/lora/v10/_IxjUs2lbQSu0MyFEAfa7VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
