@@ -1,27 +1,46 @@
-function demnguoc() {
+function countdown(dateEnd) {
+  var timer, days, hours, minutes, seconds;
 
-			var endTime = new Date("2020-12-5 9:00:00 GMT");			
-			var endTime = (Date.parse(endTime)) / 1000;
+  dateEnd = new Date(dateEnd);
+  dateEnd = dateEnd.getTime();
 
-			var now = new Date();
-			var now = (Date.parse(now) / 1000);
+  if ( isNaN(dateEnd) ) {
+    return;
+  }
 
-			var timeLeft = endTime - now;
+  timer = setInterval(calculate, 1000);
 
-			var days = Math.floor(timeLeft / 86400); 
-			var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
-			var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
-			var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
+  function calculate() {
+    var dateStart = new Date();
+    var dateStart = new Date(dateStart.getUTCFullYear(),
+                             dateStart.getUTCMonth(),
+                             dateStart.getUTCDate(),
+                             dateStart.getUTCHours(),
+                             dateStart.getUTCMinutes(),
+                             dateStart.getUTCSeconds());
+    var timeRemaining = parseInt((dateEnd - dateStart.getTime()) / 1000)
 
-			if (hours < "10") { hours = "0" + hours; }
-			if (minutes < "10") { minutes = "0" + minutes; }
-			if (seconds < "10") { seconds = "0" + seconds; }
+    if ( timeRemaining >= 0 ) {
+      days    = parseInt(timeRemaining / 86400);
+      timeRemaining   = (timeRemaining % 86400);
+      hours   = parseInt(timeRemaining / 3600);
+      timeRemaining   = (timeRemaining % 3600);
+      minutes = parseInt(timeRemaining / 60);
+      timeRemaining   = (timeRemaining % 60);
+      seconds = parseInt(timeRemaining);
 
-			$("#days").html(days);
-			$("#hours").html(hours);
-			$("#minutes").html(minutes);
-			$("#seconds").html(seconds);		
+      document.getElementById("days").innerHTML    = parseInt(days, 10);
+      document.getElementById("hours").innerHTML   = ("0" + hours).slice(-2);
+      document.getElementById("minutes").innerHTML = ("0" + minutes).slice(-2);
+      document.getElementById("seconds").innerHTML = ("0" + seconds).slice(-2);
+    } else {
+      return;
+    }
+  }
 
-	}
+  function display(days, hours, minutes, seconds) {}
+}
 
-	setInterval(function() { demnguoc(); }, 1000);
+
+
+countdown('12/05/2020 09:00:00 AM');
