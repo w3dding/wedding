@@ -1998,6 +1998,7 @@ textarea:focus {
     -o-transition: all 0.3s;
     transition: all 0.3s;
 	overflow: scroll;
+    z-index: 2;
 }
 .wd_main_menu ul {
     width: 100%;
