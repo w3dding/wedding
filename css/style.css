@@ -193,7 +193,6 @@ textarea:focus {
     position: absolute;
     left: 0;
     right: 0;
-    z-index: 10;
     line-height: 80px;
     color: #ffffff;
     font-size: 24px;
@@ -240,7 +239,6 @@ textarea:focus {
 	position: absolute;
 	top: 0;
 	width: 100%;
-	z-index:1;
 	-webkit-animation: snow 10s linear infinite;
 	-moz-animation: snow 10s linear infinite;
 	-ms-animation: snow 10s linear infinite;
@@ -1998,7 +1996,7 @@ textarea:focus {
     -o-transition: all 0.3s;
     transition: all 0.3s;
 	overflow: scroll;
-    z-index: 2;
+    z-index: 10;
 }
 .wd_main_menu ul {
     width: 100%;
