@@ -165,7 +165,7 @@ textarea:focus {
 .wd_slider_wrapper{
 	float:left;
 	width:100%;
-	background:url(../images/header/1920-1080.webp);
+	background:url(../images/header/1920-1080.jpg);
 	position:relative;
     background-attachment: fixed;
     position: relative;
@@ -234,7 +234,7 @@ textarea:focus {
 }
 #snow{
 	background: none;
-	background-image: url('../images/header/sn1.webp'), url('../images/header/sn2.webp'), url('../images/header/sn3.webp');
+	background-image: url('../images/header/sn1.png'), url('../images/header/sn2.png'), url('../images/header/sn3.png');
 	height: 100%;
 	left: 0;
 	position: absolute;
@@ -440,7 +440,7 @@ textarea:focus {
 .wd_about_wrapper{
 	float:left;
 	width:100%;
-	background-image:url(../images/content/about_bg.webp);
+	background-image:url(../images/content/about_bg.jpg);
 	background-size:cover;
 	background-position:100% 100%;
 	background-repeat:no-repeat;
@@ -683,7 +683,7 @@ textarea:focus {
 .wd_story_wrapper{
 	float:left;
 	width:100%;
-	background-image:url(../images/content/story_bg.webp);
+	background-image:url(../images/content/story_bg.png);
 	background-size:cover;
 	background-position:100% 100%;
 	background-repeat:no-repeat;
@@ -693,7 +693,7 @@ textarea:focus {
 .wd_overlay{
     content: "";
     position: absolute;
-    background-image: url(../images/content/dot_bg.webp);
+    background-image: url(../images/content/dot_bg.png);
     background-color: rgba(0, 0, 0, 0.8);
     top: 0;
     left: 0;
@@ -844,7 +844,7 @@ textarea:focus {
 .wd_event_wrapper{
 	float:left;
 	width:100%;
-	background-image:url(../images/content/event_bg.webp);
+	background-image:url(../images/content/event_bg.jpg);
 	background-size:cover;
 	background-position:100% 100%;
 	background-repeat:no-repeat;
@@ -903,7 +903,7 @@ textarea:focus {
 .wd_guest_wrapper{
 	float:left;
 	width:100%;
-	background-image:url(../images/content/guest_bg.webp);
+	background-image:url(../images/content/guest_bg.png);
 	background-size:cover;
 	background-position:100% 100%;
 	background-repeat:no-repeat;
@@ -913,7 +913,7 @@ textarea:focus {
 .wd_overlay{
     content: "";
     position: absolute;
-    background-image: url(../images/content/dot_bg.webp);
+    background-image: url(../images/content/dot_bg.png);
     background-color: rgba(0, 0, 0, 0.8);
     top: 0;
     left: 0;
@@ -1064,7 +1064,7 @@ textarea:focus {
 .wd_family_wrapper{
 	float:left;
 	width:100%;
-	background-image:url(../images/content/family_bg.webp);
+	background-image:url(../images/content/family_bg.jpg);
 	background-size:cover;
 	background-position:100% 100%;
 	background-repeat:no-repeat;
@@ -1513,7 +1513,7 @@ textarea:focus {
 .wd_blog_wrapper{
 	float:left;
 	width:100%;
-	background-image:url(../images/content/blog_bg.webp);
+	background-image:url(../images/content/blog_bg.jpg);
 	background-size:cover;
 	background-position:100% 100%;
 	background-repeat:no-repeat;
@@ -1621,7 +1621,7 @@ textarea:focus {
 .wd_contact_wrapper{
 	float:left;
 	width:100%;
-	background-image:url(../images/content/contact_bg.webp);
+	background-image:url(../images/content/contact_bg.jpg);
 	background-size:cover;
 	background-position:100% 100%;
 	background-repeat:no-repeat;
@@ -1631,7 +1631,7 @@ textarea:focus {
 .wd_overlay{
     content: "";
     position: absolute;
-    background-image: url(../images/content/dot_bg.webp);
+    background-image: url(../images/content/dot_bg.png);
     background-color: rgba(0, 0, 0, 0.8);
     top: 0;
     left: 0;
@@ -1692,7 +1692,7 @@ textarea:focus {
 .wd_footer_wrapper{
 	float:left;
 	width:100%;
-	background-image:url(../images/content/footer_bg.webp);
+	background-image:url(../images/content/footer_bg.jpg);
 	background-size:cover;
 	background-position:100% 100%;
 	background-repeat:no-repeat;
