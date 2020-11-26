@@ -1954,7 +1954,7 @@ textarea:focus {
     font-size: 16px;
     color: #ffffff;
     border-radius: 3px;
-	background-color: #f07677;
+    background-color: #f07677;
 }
 .wd_menu_btn:hover, .wd_menu_btn:focus{
 	outline:none;
@@ -1981,7 +1981,7 @@ textarea:focus {
 	background-color: #f07677;
 }
 .wd_main_menu_wrapper {
-    width: 300px;
+    width: 200px;
 }
 .wd_main_menu_wrapper.wd_main_menu_hide{
 	-webkit-transform: translateX(0%);
