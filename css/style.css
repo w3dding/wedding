@@ -1940,12 +1940,12 @@ textarea:focus {
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
 
 .wd_menu_btn{
     display: block;
     float: none;
-    position: absolute;
+    position: fixed;
     top: 35px;
     right: 15px;
     border: none;
@@ -1994,7 +1994,7 @@ textarea:focus {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-	overflow: scroll;
+	overflow: visible;
     z-index: 1000;
 }
 .wd_main_menu ul {
@@ -2014,7 +2014,7 @@ textarea:focus {
 }
 .wd_main_menu ul li a:hover, .wd_main_menu ul li a.active {
     border: 0px;
-	background-color:#ffffff;
+	background-color:#aa0909;
 	color:#f07677;
 }
 .menu_fixed .wd_main_menu ul li a {
