@@ -1,6 +1,6 @@
 function demnguoc() {
 
-			var endTime = new Date("12 05, 2020 9:00:00 GMT");			
+			var endTime = new Date("2020-12-5 9:00:00 GMT");			
 			var endTime = (Date.parse(endTime)) / 1000;
 
 			var now = new Date();
