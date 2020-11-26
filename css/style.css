@@ -276,7 +276,6 @@ textarea:focus {
     float: left;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.30);
-    z-index: 1;
     position: relative;
 }
 .wd_mainmenu_wrapper{
@@ -1964,7 +1963,7 @@ textarea:focus {
 	text-shadow:none;
 }
 .wd_main_menu_wrapper{
-	z-index: 2;
+	z-index:1000;
 	position:fixed;
     left: 0px;
     top: 0px;
@@ -1996,7 +1995,7 @@ textarea:focus {
     -o-transition: all 0.3s;
     transition: all 0.3s;
 	overflow: scroll;
-    z-index: 10;
+    z-index: 1000;
 }
 .wd_main_menu ul {
     width: 100%;
@@ -2160,7 +2159,7 @@ textarea:focus {
 
 @media (max-width: 380px) {
 .wd_main_menu_wrapper {
-    width: 190px;
+    width: 200px;
 }
 }
 @media (min-width: 991px) and (max-width: 1199px){
