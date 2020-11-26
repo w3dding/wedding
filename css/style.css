@@ -1963,38 +1963,38 @@ textarea:focus {
 	text-shadow:none;
 }
 .wd_main_menu_wrapper{
-	z-index:1000;
-	position:fixed;
+    z-index:1000;
+    position:fixed;
     left: 0px;
     top: 0px;
-	bottom:0px;
-	-webkit-transform: translateX(-100%);
+    bottom:0px;
+    -webkit-transform: translateX(-100%);
     -moz-transform: translateX(-100%);
     -ms-transform: translateX(-100%);
     -o-transform: translateX(-100%);
     transform: translateX(-100%);
-	-webkit-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-	background-color: #f07677;
+   background-color: #f07677;
 }
 .wd_main_menu_wrapper {
     width: 200px;
 }
 .wd_main_menu_wrapper.wd_main_menu_hide{
-	-webkit-transform: translateX(0%);
+    -webkit-transform: translateX(0%);
     -moz-transform: translateX(0%);
     -ms-transform: translateX(0%);
     -o-transform: translateX(0%);
     transform: translateX(0%);
-	-webkit-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-	overflow: visible;
+   overflow: auto;
     z-index: 1000;
 }
 .wd_main_menu ul {
