@@ -1982,6 +1982,7 @@ textarea:focus {
 }
 .wd_main_menu_wrapper {
     width: 200px;
+    height: 100%;	
 }
 .wd_main_menu_wrapper.wd_main_menu_hide{
     -webkit-transform: translateX(0%);
